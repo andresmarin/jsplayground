@@ -1,0 +1,253 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App should render correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <App
+    msg="It works!"
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <header
+          className="App-header"
+>
+          <img
+                    alt="logo"
+                    className="App-logo"
+                    src="logo.svg"
+          />
+          <h1
+                    className="App-title"
+          >
+                    It works!
+          </h1>
+</header>,
+        <p
+          className="App-intro"
+>
+          This is just a silly test.
+</p>,
+        <button
+          onClick={[Function]}
+          type="button"
+>
+          A silly Button
+</button>,
+      ],
+      "className": "App",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <img
+              alt="logo"
+              className="App-logo"
+              src="logo.svg"
+/>,
+            <h1
+              className="App-title"
+>
+              It works!
+</h1>,
+          ],
+          "className": "App-header",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "alt": "logo",
+              "className": "App-logo",
+              "src": "logo.svg",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "img",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "It works!",
+              "className": "App-title",
+            },
+            "ref": null,
+            "rendered": "It works!",
+            "type": "h1",
+          },
+        ],
+        "type": "header",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "This is just a silly test.",
+          "className": "App-intro",
+        },
+        "ref": null,
+        "rendered": "This is just a silly test.",
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "A silly Button",
+          "onClick": [Function],
+          "type": "button",
+        },
+        "ref": null,
+        "rendered": "A silly Button",
+        "type": "button",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <header
+            className="App-header"
+>
+            <img
+                        alt="logo"
+                        className="App-logo"
+                        src="logo.svg"
+            />
+            <h1
+                        className="App-title"
+            >
+                        It works!
+            </h1>
+</header>,
+          <p
+            className="App-intro"
+>
+            This is just a silly test.
+</p>,
+          <button
+            onClick={[Function]}
+            type="button"
+>
+            A silly Button
+</button>,
+        ],
+        "className": "App",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <img
+                alt="logo"
+                className="App-logo"
+                src="logo.svg"
+/>,
+              <h1
+                className="App-title"
+>
+                It works!
+</h1>,
+            ],
+            "className": "App-header",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "logo",
+                "className": "App-logo",
+                "src": "logo.svg",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "It works!",
+                "className": "App-title",
+              },
+              "ref": null,
+              "rendered": "It works!",
+              "type": "h1",
+            },
+          ],
+          "type": "header",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "This is just a silly test.",
+            "className": "App-intro",
+          },
+          "ref": null,
+          "rendered": "This is just a silly test.",
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "A silly Button",
+            "onClick": [Function],
+            "type": "button",
+          },
+          "ref": null,
+          "rendered": "A silly Button",
+          "type": "button",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

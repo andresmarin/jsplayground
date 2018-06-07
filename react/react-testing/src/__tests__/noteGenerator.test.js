@@ -24,7 +24,7 @@ test("Note component receives props and then render text", () => {
 
   render(<Note text="A very useful tip..." />, { container });
 
-  // Sprawdzamy czy komponent przerenderował się z nowymi propsami
+
   expect(getByText("A very useful tip...")).toBeTruthy();
 });
 
