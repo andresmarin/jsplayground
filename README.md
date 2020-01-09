@@ -7,3 +7,4 @@ This is my own path to JavaScript mastery. Once I decided to excell in the langu
 3- **Firebase:** Firebase projects.
 3.1 - **Socialape:** Firebase social media app based on freeCodeCamp Full Stack React and Firebase tutorial.
 Continous - **Other:** Small scripts to test concepts.
+
