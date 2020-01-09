@@ -4,4 +4,6 @@ This is my own path to JavaScript mastery. Once I decided to excell in the langu
 
 1- **Eloquent Javascript:** Eloquent JavaScript is one of the best books on JS as it takes you back to the basics of the languaje.
 2- **React TicTacToe game:** Basic React game, from the https://reactjs.org tutorial.
+3- **Firebase:** Firebase projects.
+3.1 - **Socialape:** Firebase social media app based on freeCodeCamp Full Stack React and Firebase tutorial.
 Continous - **Other:** Small scripts to test concepts.
